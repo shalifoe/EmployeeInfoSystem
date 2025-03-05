@@ -29,13 +29,13 @@ public class EmployeeInfoSystem { // naming new project
 
         // Compute full name and daily wage
         String fullName = firstName + " " + lastName; // we combine firstName, "" (stands for space), and lastName
-        double dailyWage = hoursWorked * hourlyWage; // we multiply hours worked by hourly wage
+        double dailySalary = hoursWorked * hourlyWage; // we multiply hours worked by hourly wage
 
         // Display computed details
         System.out.println(" Employee Information ");
         System.out.println("Full Name: " + fullName);
         System.out.println("Age: " + age);
-        System.out.printf("Daily Wage: %.2f%n", dailyWage); //  makes sure the daily wage always shows 2 decimal places
+        System.out.printf("Daily salary: %.2f%n", dailySalary); //  makes sure the daily salary always shows 2 decimal places
 
         // Closes the scanner
         scanner.close();
