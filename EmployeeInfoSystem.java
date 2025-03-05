@@ -32,7 +32,7 @@ public class EmployeeInfoSystem { // naming new project
         double dailySalary = hoursWorked * hourlyWage; // we multiply hours worked by hourly wage
 
         // Display computed details
-        System.out.println(" Employee Information ");
+        System.out.println(" \n Employee Information ");
         System.out.println("Full Name: " + fullName);
         System.out.println("Age: " + age);
         System.out.printf("Daily salary: %.2f%n", dailySalary); //  makes sure the daily salary always shows 2 decimal places
