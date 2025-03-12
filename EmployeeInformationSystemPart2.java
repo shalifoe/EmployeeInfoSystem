@@ -1,3 +1,4 @@
+//Antic, Kacy Lorraine BSCS 1-A
 import java.util.Scanner;
 
 public class EmployeeInformationSystemPart2 { // naming new project
