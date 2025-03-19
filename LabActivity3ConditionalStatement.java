@@ -1,7 +1,7 @@
 //Antic, Kacy Lorraine BSCS 1-A
 import java.util.Scanner;
 
-public class EmployeeInformationSystemPart2 { // naming new project
+public class LabActivity3ConditionalStatement { // naming new project
     public static void main(String[] args) { // the start button of the program, everything runs inside this bracket
         // Create Scanner object for user input
         Scanner scanner = new Scanner(System.in);
